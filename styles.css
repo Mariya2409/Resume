@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-left img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.header-right {
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0;
+    color: #666;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p, section ul {
+    margin: 0;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    list-style-type: disc;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.job h4 {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job h5 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job ul li {
+    list-style-type: disc;
+}
